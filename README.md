@@ -1,6 +1,6 @@
 ## Introduction to Radar with Python and MATLAB(R) by Lee Andrew Harrison
 
-The companion software for this text is found at [Software](https://github.com/software/)
+The companion software for this text is found at [Software](https://RadarBook/github.com/software/)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
