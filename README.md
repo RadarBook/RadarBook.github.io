@@ -1,4 +1,4 @@
-## Introduction to Radar with Python and MATLAB(R) by Lee Andrew Harrison
+## Introduction to Radar using Python and MATLAB(R) by Lee A. Harrison
 
 The companion software for this text is found at [Software](https://github.com/RadarBook/software)
 
