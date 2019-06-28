@@ -127,7 +127,7 @@
             <input id="staticrypt-password"
                    type="password"
                    name="password"
-                   placeholder="passphrase"
+                   placeholder="acess code"
                    autofocus/>
 
             <input type="submit" class="staticrypt-decrypt-button" value="Submit"/>
@@ -6136,7 +6136,7 @@
         e.preventDefault();
 
         var passphrase = document.getElementById('staticrypt-password').value,
-            encryptedMsg = 'cd70284ff222b0d6b4bc9caa7ea2032111822756022fac97682de6300ad04f3cU2FsdGVkX1/C8obJTSeyWBBAID705f6EgObi9+7G5r8Hz4wdbAK/MnuxcGE68j7DcEwXCseFJt3v01p74c+9/VesHDetFIRscu2gnFKwAqqnasd9xHLoVyVHYVXhbc0tdZJdaxTVwaKRfVpvz27vginRpesodGsFAhqhHdtl/rt4g9wfH+OsQAj1rQS3TTLn3EQpx/Z1AOghkF2xzy0sMw==',
+            encryptedMsg = '600307a52ae1fc1164b9d5fd5a2c28b276f9ff8b92a1eae046d68c3c650fd236U2FsdGVkX1+ZhRDIZ1yJoY0mFH7Lj0ELPHwkTBMW3IgraIN9tl6RKLKWvivWFBKhRHfnhFbNE+S43XBbhvhiE85jOeODOsohuINa4YvG7P3TM8wdgNpT/hJxT9Cs0CwAVtcvRCEdLtcOc77roTAMNnIPvFmlpnD4+dLyOmEQMcyd6P3tv2ClD4O4lNQYI2O5fZpKchzIhRSVCx3oUq4jOA==',
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
