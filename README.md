@@ -1,1 +1,1 @@
-## Introduction to Radar Using Python and MATLAB(R) by Lee Andrew Harrison
+## Introduction to Radar Using Python and MATLAB by Lee Andrew Harrison
